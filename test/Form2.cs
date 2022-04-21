@@ -32,11 +32,12 @@ namespace test
                 {
                     conn.Open();
                     MySqlCommand msc = new MySqlCommand("INSERT INTO ex118_1(name,age) values('"+ textBox1.Text +"','"+ textBox2.Text +"')", conn);
-                    msc.ExecuteNonQuery();
+                    int result = msc.ExecuteNonQuery();
 
-                    if(msc.ExecuteNonQuery() == 1)
+                    if(result == 1)
                     {
                         MessageBox.Show("추가완료");
+                    //    conn.Close();
                     }
                 }
             }
