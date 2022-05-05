@@ -25,3 +25,4 @@ C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\Ubiety.Dns.
 C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\ZstdNet.dll
 C:\Users\Steven-Park\source\repos\test\test\obj\Debug\net6.0-windows\test.csproj.CopyComplete
 C:\Users\Steven-Park\source\repos\test\test\obj\Debug\net6.0-windows\test.Form2.resources
+C:\Users\Steven-Park\source\repos\test\test\obj\Debug\net6.0-windows\test.Form3.resources
