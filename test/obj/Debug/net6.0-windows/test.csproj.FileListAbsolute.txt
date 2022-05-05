@@ -26,3 +26,9 @@ C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\ZstdNet.dll
 C:\Users\Steven-Park\source\repos\test\test\obj\Debug\net6.0-windows\test.csproj.CopyComplete
 C:\Users\Steven-Park\source\repos\test\test\obj\Debug\net6.0-windows\test.Form2.resources
 C:\Users\Steven-Park\source\repos\test\test\obj\Debug\net6.0-windows\test.Form3.resources
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

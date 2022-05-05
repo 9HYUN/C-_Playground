@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -9,11 +10,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
+
+            
 namespace test
 {
     public partial class Form2 : Form
     {
-        string Conn = "Server=localhost;Database=ex118;Uid=root;Pwd=1234;";
+        string Conn = @"Data Source= STEVEN-PARK\SQLEXPRESS;Initial Catalog=99PLAY;Integrated Security=True";
+        //string Conn = "Server=.//SQLEXPRESS;Database=TEST;Integrated security=SSPI";
         public Form2()
         {
             InitializeComponent();
@@ -31,14 +35,16 @@ namespace test
             }
             else
             {
+                using (SqlConnection conn2 = new SqlConnection())
+
                 //DB 넣기
                 using (MySqlConnection conn = new MySqlConnection(Conn))
                 {
                     conn.Open();
-                    MySqlCommand msc = new MySqlCommand("INSERT INTO ex118_1(name,age) values('"+ textBox1.Text +"','"+ textBox2.Text +"')", conn);
+                    MySqlCommand msc = new MySqlCommand("INSERT INTO ex118_1(name,age) values('" + textBox1.Text + "','" + textBox2.Text + "')", conn);
                     int result = msc.ExecuteNonQuery();
 
-                    if(result == 1)
+                    if (result == 1)
                     {
                         MessageBox.Show("추가완료");
                         conn.Close();
@@ -49,11 +55,14 @@ namespace test
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            MySqlConnection con =  new MySqlConnection(Conn);
-            MySqlCommand cmd = new MySqlCommand("SELECT name, age FROM ex118_1", con);
+       
+            
+            SqlConnection con =  new SqlConnection(Conn);
+            //MySqlConnection con =  new MySqlConnection(Conn);
+            SqlCommand cmd = new SqlCommand("SELECT * FROM LOTTO", con);
             try
             {
-                MySqlDataAdapter sda = new MySqlDataAdapter();
+                SqlDataAdapter sda = new SqlDataAdapter();
                 sda.SelectCommand = cmd;
                 DataTable dbdataset = new DataTable();
                 sda.Fill(dbdataset);

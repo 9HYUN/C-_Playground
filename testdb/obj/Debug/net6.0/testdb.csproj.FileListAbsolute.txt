@@ -1,0 +1,15 @@
+C:\Users\Steven-Park\source\repos\test\testdb\bin\Debug\net6.0\testdb.exe
+C:\Users\Steven-Park\source\repos\test\testdb\bin\Debug\net6.0\testdb.deps.json
+C:\Users\Steven-Park\source\repos\test\testdb\bin\Debug\net6.0\testdb.runtimeconfig.json
+C:\Users\Steven-Park\source\repos\test\testdb\bin\Debug\net6.0\testdb.dll
+C:\Users\Steven-Park\source\repos\test\testdb\bin\Debug\net6.0\testdb.pdb
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\testdb.csproj.AssemblyReference.cache
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\testdb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\testdb.AssemblyInfoInputs.cache
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\testdb.AssemblyInfo.cs
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\testdb.csproj.CoreCompileInputs.cache
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\testdb.dll
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\refint\testdb.dll
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\testdb.pdb
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\testdb.genruntimeconfig.cache
+C:\Users\Steven-Park\source\repos\test\testdb\obj\Debug\net6.0\ref\testdb.dll
