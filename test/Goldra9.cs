@@ -16,5 +16,17 @@ namespace test
         {
             InitializeComponent();
         }
+
+        private void 로또ToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 웹ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            WebFrm frm = new WebFrm();
+            frm.ShowDialog();
+            
+        }
     }
 }

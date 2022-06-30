@@ -34,6 +34,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.로또ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.로또ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.웹ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -64,7 +66,8 @@
             // 로또ToolStripMenuItem1
             // 
             this.로또ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.로또ToolStripMenuItem2});
+            this.로또ToolStripMenuItem2,
+            this.웹ToolStripMenuItem});
             this.로또ToolStripMenuItem1.Name = "로또ToolStripMenuItem1";
             this.로또ToolStripMenuItem1.Size = new System.Drawing.Size(43, 20);
             this.로또ToolStripMenuItem1.Text = "메뉴";
@@ -74,6 +77,14 @@
             this.로또ToolStripMenuItem2.Name = "로또ToolStripMenuItem2";
             this.로또ToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.로또ToolStripMenuItem2.Text = "로또";
+            this.로또ToolStripMenuItem2.Click += new System.EventHandler(this.로또ToolStripMenuItem2_Click);
+            // 
+            // 웹ToolStripMenuItem
+            // 
+            this.웹ToolStripMenuItem.Name = "웹ToolStripMenuItem";
+            this.웹ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.웹ToolStripMenuItem.Text = "웹";
+            this.웹ToolStripMenuItem.Click += new System.EventHandler(this.웹ToolStripMenuItem_Click);
             // 
             // Goldra9
             // 
@@ -99,5 +110,7 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem 로또ToolStripMenuItem1;
         private ToolStripMenuItem 로또ToolStripMenuItem2;
+        private ToolStripMenuItem 웹ToolStripMenuItem;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
