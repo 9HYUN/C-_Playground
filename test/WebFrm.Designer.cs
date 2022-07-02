@@ -108,7 +108,7 @@
             this.Controls.Add(this.txtUrl);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "WebFrm";
-            this.Text = "yongTech";
+            this.Text = "99web";
             this.Load += new System.EventHandler(this.WebFrm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

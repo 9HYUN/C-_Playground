@@ -34,3 +34,6 @@ C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\runtimes\un
 C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Steven-Park\source\repos\test\test\obj\Debug\net6.0-windows\test.Goldra9.resources
 C:\Users\Steven-Park\source\repos\test\test\obj\Debug\net6.0-windows\test.WebFrm.resources
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\WebDriver.Support.dll
+C:\Users\Steven-Park\source\repos\test\test\bin\Debug\net6.0-windows\WebDriver.dll

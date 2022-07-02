@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s0OkyQwm8MJyHWwYUlS3VtE42KvscOCzQXkk5qxHI07hHOfO9hFdQ6BGbOyNiwjJneiyljhh7t7H78gA/8bQew==",
+  "dgSpecHash": "D13j1/Ocq4M4DmEyBTeJVGFRIA/q7qPYO2ihYM9JkhQEqo6TD1qGNouDHHVlhZ6rBTMjuqkkUBXP+cpUmbthyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Steven-Park\\source\\repos\\test\\test\\test.csproj",
   "expectedPackageFiles": [
@@ -13,10 +13,14 @@
     "C:\\Users\\Steven-Park\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\mysql.data\\8.0.28\\mysql.data.8.0.28.nupkg.sha512",
+    "C:\\Users\\Steven-Park\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Steven-Park\\.nuget\\packages\\selenium.support\\4.3.0\\selenium.support.4.3.0.nupkg.sha512",
+    "C:\\Users\\Steven-Park\\.nuget\\packages\\selenium.webdriver\\4.3.0\\selenium.webdriver.4.3.0.nupkg.sha512",
+    "C:\\Users\\Steven-Park\\.nuget\\packages\\selenium.webdriver.chromedriver\\103.0.5060.5300\\selenium.webdriver.chromedriver.103.0.5060.5300.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\Steven-Park\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",

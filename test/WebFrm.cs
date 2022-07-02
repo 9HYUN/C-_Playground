@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,28 +25,29 @@ namespace test
         }
         private void WebFrm_Load(object sender, EventArgs e)
         {
-            String url = "http://naver.com";
+            String url = "https://tickets.interpark.com/goods/22006622";
             // wbMain을 url페이지로 이동
             wbMain.Navigate(url);
         }
 
         private async void btnGo_Click(object sender, EventArgs e)
         {
-            String url = "https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com";
-            wbMain.Navigate(url);
-            await Task.Delay(1500);
-            wbMain.Document.GetElementById("id").SetAttribute("value", UserName.);
-            wbMain.Document.GetElementById("pw").SetAttribute("value", "");
 
-            //// txtUrl 에 입력받은 값을 불러서 url에 저장
-            //String url = txtUrl.Text; 
-            //// wbMain을 url페이지로 이동
-            //wbMain.Navigate(url);
+            //문제점 로그인시 자동방지 시스템 발동
+            //자동 로그인 Id 값
+            String url = "https://ticket.interpark.com/Gate/TPLogin.asp?GPage=https%3A%2F%2Ftickets.interpark.com%2Fgoods%2F22006622";
+            wbMain.Navigate(url);
+            await Task.Delay(2500);
+            wbMain.Document.GetElementById("userId").SetAttribute("value", "wosmd109");
+            await Task.Delay(500);
+            wbMain.Document.GetElementById("userPwd").SetAttribute("value", "cjstkWkd!2");
+            //await Task.Delay(1500);
+            //wbMain.Document.GetElementById("btn_login").InvokeMember("click");
         }
 
         private void txtUrl_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyCode == System.Windows.Forms.Keys.Enter)
             {
                 // 위에 입력해놓은 함수 불러서 페이지 이동 시키기
                 btnGo_Click(sender, e);
